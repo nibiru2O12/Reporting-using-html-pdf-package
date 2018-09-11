@@ -10,7 +10,7 @@ const port = 4000;
 app.set('view engine','ejs');
 
 app.get('/',(req,res)=>{
-    res.render('sample');
+    res.render('sample',{person:{name:"RJ"}});
 })
 
 
